@@ -1,3 +1,4 @@
+% Time the solution execution
 timeStart = now();
 q002;
 timeEnd = now();
