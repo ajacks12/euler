@@ -1,5 +1,5 @@
 package src;
 
-public interface euler {
+public interface Euler {
     public String solve();
 }

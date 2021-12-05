@@ -7,12 +7,7 @@ package src;
 
 
 
-public final class q001 implements euler {
-
-    public static void main(String args[])  //static method
-    {
-        System.out.println(new q001().solve());
-    }
+public final class q001 implements Euler {
 
     public String solve()
     {
@@ -24,6 +19,5 @@ public final class q001 implements euler {
         }
         return String.valueOf(x);
     }
-
 
 }
