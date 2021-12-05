@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="88ff61a4-3d69-4aea-a502-ffe77d72d243" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/testng.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/project-euler.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/001/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/001/q001.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/001/q001.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/001/q001Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/002/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/002/q002.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/002/timer.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/003/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/003/q003.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/003/timer.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/004/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/004/q004.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/005_WIP/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/005_WIP/q005_WIP.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/005_WIP/timer.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/006/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/006/q006.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/007/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/007/q007.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/008/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/008/q008.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/009/q009.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/010/q010.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/011/q011.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/012/q012.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/013_WIP/q013_WIP.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/014/q014.m" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="21sGD1N3OSgRVQoNcKQQvg9jJ7F" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/java" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="88ff61a4-3d69-4aea-a502-ffe77d72d243" name="Changes" comment="" />
+      <created>1638722257826</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1638722257826</updated>
+    </task>
+    <servers />
+  </component>
+</project>

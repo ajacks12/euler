@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/java/lib/testng-6.14.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/java/lib/bsh-2.0b6-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/java/lib/jcommander-1.72-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/java/lib/bsh-2.0b6-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/java/lib/bsh-2.0b6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/java/lib/testng-6.14.3-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/java/lib/jcommander-1.72.jar!/" />
+      <root url="jar://$PROJECT_DIR$/java/lib/testng-6.14.3-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/java/lib/jcommander-1.72-javadoc.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
