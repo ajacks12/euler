@@ -8,11 +8,10 @@ sqos=0;
 
 for i=1:100
     sosq=sosq+(i.^2);
-end
-
-for i=1:100
     sqos=sqos+i;
 end
 sqos=sqos.^2;
 
+format long
 diff=sqos-sosq
+disp("answ = 25164150");
