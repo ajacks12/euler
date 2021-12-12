@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="799da816-34eb-4d2a-b868-bb20941f3288" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/q011.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/q012.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/EulerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EulerTest.java" afterDir="false" />
     </list>
@@ -47,7 +47,7 @@
       <recent name="src" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.EulerTest.testQ011">
+  <component name="RunManager" selected="TestNG.EulerTest">
     <configuration name="EulerTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="project-euler" />
       <extension name="coverage">
@@ -65,7 +65,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EulerTest.testQ006" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="EulerTest.testQ012" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="project-euler" />
       <extension name="coverage">
         <pattern>
@@ -75,7 +75,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="src" />
       <option name="MAIN_CLASS_NAME" value="src.EulerTest" />
-      <option name="METHOD_NAME" value="testQ006" />
+      <option name="METHOD_NAME" value="testQ012" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -83,7 +83,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EulerTest.testQ007" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="EulerTest.testQ012b" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="project-euler" />
       <extension name="coverage">
         <pattern>
@@ -93,7 +93,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="src" />
       <option name="MAIN_CLASS_NAME" value="src.EulerTest" />
-      <option name="METHOD_NAME" value="testQ007" />
+      <option name="METHOD_NAME" value="testQ012b" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -101,7 +101,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EulerTest.testQ009" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="EulerTest.testQ012c" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="project-euler" />
       <extension name="coverage">
         <pattern>
@@ -111,7 +111,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="src" />
       <option name="MAIN_CLASS_NAME" value="src.EulerTest" />
-      <option name="METHOD_NAME" value="testQ009" />
+      <option name="METHOD_NAME" value="testQ012c" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -119,7 +119,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EulerTest.testQ011" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="EulerTest.testQ012d" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="project-euler" />
       <extension name="coverage">
         <pattern>
@@ -129,7 +129,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="src" />
       <option name="MAIN_CLASS_NAME" value="src.EulerTest" />
-      <option name="METHOD_NAME" value="testQ011" />
+      <option name="METHOD_NAME" value="testQ012d" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -139,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.EulerTest.testQ011" />
         <item itemvalue="TestNG.EulerTest" />
-        <item itemvalue="TestNG.EulerTest.testQ009" />
-        <item itemvalue="TestNG.EulerTest.testQ007" />
-        <item itemvalue="TestNG.EulerTest.testQ006" />
+        <item itemvalue="TestNG.EulerTest.testQ012d" />
+        <item itemvalue="TestNG.EulerTest.testQ012" />
+        <item itemvalue="TestNG.EulerTest.testQ012b" />
+        <item itemvalue="TestNG.EulerTest.testQ012c" />
       </list>
     </recent_temporary>
   </component>
