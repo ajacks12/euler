@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="799da816-34eb-4d2a-b868-bb20941f3288" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/q014.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/q015.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/q016.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/EulerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EulerTest.java" afterDir="false" />
     </list>
@@ -47,7 +48,7 @@
       <recent name="src" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.EulerTest">
+  <component name="RunManager" selected="TestNG.EulerTest.testQ016">
     <configuration name="EulerTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="project-euler" />
       <extension name="coverage">
@@ -65,7 +66,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EulerTest.testQ014" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="EulerTest.testQ015a" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="project-euler" />
       <extension name="coverage">
         <pattern>
@@ -75,7 +76,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="src" />
       <option name="MAIN_CLASS_NAME" value="src.EulerTest" />
-      <option name="METHOD_NAME" value="testQ014" />
+      <option name="METHOD_NAME" value="testQ015a" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -83,7 +84,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EulerTest.testQ014a" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="EulerTest.testQ016" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="project-euler" />
       <extension name="coverage">
         <pattern>
@@ -93,7 +94,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="src" />
       <option name="MAIN_CLASS_NAME" value="src.EulerTest" />
-      <option name="METHOD_NAME" value="testQ014a" />
+      <option name="METHOD_NAME" value="testQ016" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -101,49 +102,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EulerTest.testQ014b" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="src.EulerTest,testQ015a and 2 more" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="project-euler" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="src" />
-      <option name="MAIN_CLASS_NAME" value="src.EulerTest" />
-      <option name="METHOD_NAME" value="testQ014b" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="PATTERN" />
       <properties />
       <listeners />
+      <patterns>
+        <pattern testClass="src.EulerTest,testQ015a" />
+        <pattern testClass="src.EulerTest,testQ015b" />
+        <pattern testClass="src.EulerTest,testQ015c" />
+      </patterns>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EulerTest.testQ014c" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="src.EulerTest,testQ015a and 3 more" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="project-euler" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="src" />
-      <option name="MAIN_CLASS_NAME" value="src.EulerTest" />
-      <option name="METHOD_NAME" value="testQ014c" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="PATTERN" />
       <properties />
       <listeners />
+      <patterns>
+        <pattern testClass="src.EulerTest,testQ015a" />
+        <pattern testClass="src.EulerTest,testQ015b" />
+        <pattern testClass="src.EulerTest,testQ015c" />
+        <pattern testClass="src.EulerTest,testQ015d" />
+      </patterns>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.EulerTest.testQ016" />
+        <item itemvalue="TestNG.src.EulerTest,testQ015a and 3 more" />
+        <item itemvalue="TestNG.src.EulerTest,testQ015a and 2 more" />
+        <item itemvalue="TestNG.EulerTest.testQ015a" />
         <item itemvalue="TestNG.EulerTest" />
-        <item itemvalue="TestNG.EulerTest.testQ014" />
-        <item itemvalue="TestNG.EulerTest.testQ014c" />
-        <item itemvalue="TestNG.EulerTest.testQ014b" />
-        <item itemvalue="TestNG.EulerTest.testQ014a" />
       </list>
     </recent_temporary>
   </component>

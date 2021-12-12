@@ -43,4 +43,10 @@ public class EulerTest {
     @Test void testQ014(){
         assertEquals(new q014().solve(),"837799");
     }
+    @Test void testQ015(){
+        assertEquals(new q015().solve(),"137846528820");
+    }
+    @Test void testQ016(){
+        assertEquals(new q016().solve(),"1366");
+    }
 }
