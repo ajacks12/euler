@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="799da816-34eb-4d2a-b868-bb20941f3288" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/q017.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/q018.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/EulerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EulerTest.java" afterDir="false" />
     </list>
@@ -47,7 +47,7 @@
       <recent name="src" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.EulerTest.testQ017">
+  <component name="RunManager" selected="TestNG.EulerTest.testQ018">
     <configuration name="EulerTest.testQ017" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="project-euler" />
       <extension name="coverage">
@@ -77,6 +77,24 @@
       <option name="PACKAGE_NAME" value="src" />
       <option name="MAIN_CLASS_NAME" value="src.EulerTest" />
       <option name="METHOD_NAME" value="testQ017l" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EulerTest.testQ018" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="project-euler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="src" />
+      <option name="MAIN_CLASS_NAME" value="src.EulerTest" />
+      <option name="METHOD_NAME" value="testQ018" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -130,34 +148,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="src.EulerTest,testQ017a and 9 more" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="project-euler" />
-      <option name="TEST_OBJECT" value="PATTERN" />
-      <properties />
-      <listeners />
-      <patterns>
-        <pattern testClass="src.EulerTest,testQ017a" />
-        <pattern testClass="src.EulerTest,testQ017b" />
-        <pattern testClass="src.EulerTest,testQ017c" />
-        <pattern testClass="src.EulerTest,testQ017d" />
-        <pattern testClass="src.EulerTest,testQ017e" />
-        <pattern testClass="src.EulerTest,testQ017f" />
-        <pattern testClass="src.EulerTest,testQ017g" />
-        <pattern testClass="src.EulerTest,testQ017h" />
-        <pattern testClass="src.EulerTest,testQ017i" />
-        <pattern testClass="src.EulerTest,testQ017j" />
-      </patterns>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.EulerTest.testQ018" />
         <item itemvalue="TestNG.EulerTest.testQ017" />
         <item itemvalue="TestNG.src.EulerTest,testQ017a and 12 more" />
         <item itemvalue="TestNG.EulerTest.testQ017l" />
         <item itemvalue="TestNG.src.EulerTest,testQ017a and 10 more" />
-        <item itemvalue="TestNG.src.EulerTest,testQ017a and 9 more" />
       </list>
     </recent_temporary>
   </component>
@@ -182,5 +179,12 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint suspend="THREAD" type="java-exception" />
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
