@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="799da816-34eb-4d2a-b868-bb20941f3288" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/q008.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/q009.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/EulerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EulerTest.java" afterDir="false" />
     </list>
@@ -47,7 +47,7 @@
       <recent name="src" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.EulerTest">
+  <component name="RunManager" selected="TestNG.EulerTest.testQ009">
     <configuration name="EulerTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="project-euler" />
       <extension name="coverage">
@@ -119,8 +119,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EulerTest.testQ009" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="project-euler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="src" />
+      <option name="MAIN_CLASS_NAME" value="src.EulerTest" />
+      <option name="METHOD_NAME" value="testQ009" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.EulerTest.testQ009" />
         <item itemvalue="TestNG.EulerTest" />
         <item itemvalue="TestNG.EulerTest.testQ007" />
         <item itemvalue="TestNG.EulerTest.testQ006" />
@@ -149,5 +168,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/q009.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
