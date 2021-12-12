@@ -49,4 +49,46 @@ public class EulerTest {
     @Test void testQ016(){
         assertEquals(new q016().solve(),"1366");
     }
+    @Test void testQ017(){
+        assertEquals(new q017().solve(),"21124");
+    }
+    @Test void testQ017a(){
+        assertEquals(q017.NumberToString(1),"ONE");
+    }
+    @Test void testQ017b(){
+        assertEquals(q017.NumberToString(2),"TWO");
+    }
+    @Test void testQ017c(){
+        assertEquals(q017.NumberToString(3),"THREE");
+    }
+    @Test void testQ017d(){
+        assertEquals(q017.NumberToString(11),"ELEVEN");
+    }
+    @Test void testQ017e(){
+        assertEquals(q017.NumberToString(21),"TWENTY ONE");
+    }
+    @Test void testQ017f(){
+        assertEquals(q017.NumberToString(99),"NINETY NINE");
+    }
+    @Test void testQ017g(){
+        assertEquals(q017.NumberToString(100),"ONE HUNDRED");
+    }
+    @Test void testQ017h(){
+        assertEquals(q017.NumberToString(101),"ONE HUNDRED AND ONE");
+    }
+    @Test void testQ017i(){
+        assertEquals(q017.NumberToString(111),"ONE HUNDRED AND ELEVEN");
+    }
+    @Test void testQ017l(){
+        assertEquals(q017.NumberToString(120),"ONE HUNDRED AND TWENTY");
+    }
+    @Test void testQ017m(){
+        assertEquals(q017.NumberToString(130),"ONE HUNDRED AND THIRTY");
+    }
+    @Test void testQ017j(){
+        assertEquals(q017.NumberToString(599),"FIVE HUNDRED AND NINETY NINE");
+    }
+    @Test void testQ017k(){
+        assertEquals(q017.NumberToString(1000),"ONE THOUSAND");
+    }
 }
