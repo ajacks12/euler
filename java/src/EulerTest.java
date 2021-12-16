@@ -64,4 +64,16 @@ public class EulerTest {
     @Test void testQ020(){
         assertEquals(new q020().solve(),"648");
     }
+    @Test void testQ021(){
+        assertEquals(new q021().solve(),"31626");
+    }
+    @Test void testQ021a(){
+        assertEquals(q021.SumOfProperDivisors(220),284);
+    }
+    @Test void testQ021b(){
+        assertEquals(q021.SumOfProperDivisors(284),220);
+    }
+    // 871198282
+    // 4179871
+    // 2783915460
 }

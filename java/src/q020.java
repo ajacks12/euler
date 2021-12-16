@@ -22,7 +22,7 @@ public final class q020 implements Euler {
         String factorialStr = String.valueOf(factorial);
 
         for (int i = 0; i < factorialStr.length(); i++) {
-            sumOfDigits += Integer.valueOf(String.valueOf(factorialStr.charAt(i)));
+            sumOfDigits += Integer.parseInt(String.valueOf(factorialStr.charAt(i)));
         }
 
         return String.valueOf(sumOfDigits);
