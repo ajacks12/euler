@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="799da816-34eb-4d2a-b868-bb20941f3288" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/q021.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/q022.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/EulerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EulerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/q020.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/q020.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,12 +26,15 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="228vbndrVBwxH3bIu7a15qM4pSM" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
@@ -48,43 +50,7 @@
       <recent name="src" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.EulerTest.testQ021">
-    <configuration name="EulerTest.testQ019" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="project-euler" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="src" />
-      <option name="MAIN_CLASS_NAME" value="src.EulerTest" />
-      <option name="METHOD_NAME" value="testQ019" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EulerTest.testQ020" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="project-euler" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="src" />
-      <option name="MAIN_CLASS_NAME" value="src.EulerTest" />
-      <option name="METHOD_NAME" value="testQ020" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.EulerTest.testQ022">
     <configuration name="EulerTest.testQ021" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="project-euler" />
       <extension name="coverage">
@@ -125,6 +91,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EulerTest.testQ022" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="project-euler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="src" />
+      <option name="MAIN_CLASS_NAME" value="src.EulerTest" />
+      <option name="METHOD_NAME" value="testQ022" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EulerTest.testQ022a" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="project-euler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="src" />
+      <option name="MAIN_CLASS_NAME" value="src.EulerTest" />
+      <option name="METHOD_NAME" value="testQ022a" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="src.EulerTest,testQ021a and 1 more" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="project-euler" />
       <option name="TEST_OBJECT" value="PATTERN" />
@@ -140,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.EulerTest.testQ022" />
+        <item itemvalue="TestNG.EulerTest.testQ022a" />
         <item itemvalue="TestNG.EulerTest.testQ021" />
         <item itemvalue="TestNG.src.EulerTest,testQ021a and 1 more" />
         <item itemvalue="TestNG.EulerTest.testQ021a" />
-        <item itemvalue="TestNG.EulerTest.testQ020" />
-        <item itemvalue="TestNG.EulerTest.testQ019" />
       </list>
     </recent_temporary>
   </component>
@@ -170,20 +172,11 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/q021.java</url>
-          <line>40</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/q021.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
       <default-breakpoints>
         <breakpoint suspend="THREAD" type="java-exception" />
       </default-breakpoints>

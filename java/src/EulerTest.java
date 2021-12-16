@@ -67,13 +67,14 @@ public class EulerTest {
     @Test void testQ021(){
         assertEquals(new q021().solve(),"31626");
     }
-    @Test void testQ021a(){
-        assertEquals(q021.SumOfProperDivisors(220),284);
+    @Test void testQ022(){
+        assertEquals(new q022().solve(),"871198282");
     }
-    @Test void testQ021b(){
-        assertEquals(q021.SumOfProperDivisors(284),220);
+    @Test void testQ022a(){
+        assertEquals(q022.AlphabeticalSum("COLIN"),53);
     }
-    // 871198282
+
+    //
     // 4179871
     // 2783915460
 }
