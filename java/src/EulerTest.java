@@ -76,12 +76,7 @@ public class EulerTest {
     @Test void testQ024(){
         assertEquals(new q024().solve(),"2783915460");
     }
-    @Test void testQ024a(){
-        assertEquals(q024.HasNoRepeatedDigit("0123456789"),true);
+    @Test void testQ025(){
+        assertEquals(new q025().solve(),"4782");
     }
-    @Test void testQ024b(){
-        assertEquals(q024.HasNoRepeatedDigit("0113456789"),false);
-    }
-
-
 }
