@@ -70,11 +70,18 @@ public class EulerTest {
     @Test void testQ022(){
         assertEquals(new q022().solve(),"871198282");
     }
-    @Test void testQ022a(){
-        assertEquals(q022.AlphabeticalSum("COLIN"),53);
+    @Test void testQ023(){
+        assertEquals(new q023().solve(),"4179871");
+    }
+    @Test void testQ024(){
+        assertEquals(new q024().solve(),"2783915460");
+    }
+    @Test void testQ024a(){
+        assertEquals(q024.HasNoRepeatedDigit("0123456789"),true);
+    }
+    @Test void testQ024b(){
+        assertEquals(q024.HasNoRepeatedDigit("0113456789"),false);
     }
 
-    //
-    // 4179871
-    // 2783915460
+
 }
