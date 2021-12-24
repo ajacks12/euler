@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="799da816-34eb-4d2a-b868-bb20941f3288" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/q026.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-euler.iml" beforeDir="false" afterPath="$PROJECT_DIR$/project-euler.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/EulerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EulerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/q026.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/q026.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +31,8 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
@@ -43,6 +46,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -50,61 +56,7 @@
       <recent name="src" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.EulerTest.testQ026">
-    <configuration name="EulerTest.testQ024" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="project-euler" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="src" />
-      <option name="MAIN_CLASS_NAME" value="src.EulerTest" />
-      <option name="METHOD_NAME" value="testQ024" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EulerTest.testQ024a" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="project-euler" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="src" />
-      <option name="MAIN_CLASS_NAME" value="src.EulerTest" />
-      <option name="METHOD_NAME" value="testQ024a" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EulerTest.testQ024b" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="project-euler" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="src" />
-      <option name="MAIN_CLASS_NAME" value="src.EulerTest" />
-      <option name="METHOD_NAME" value="testQ024b" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.EulerTest.testQ026b">
     <configuration name="EulerTest.testQ025" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="project-euler" />
       <extension name="coverage">
@@ -141,13 +93,67 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EulerTest.testQ026a" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="project-euler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="src" />
+      <option name="MAIN_CLASS_NAME" value="src.EulerTest" />
+      <option name="METHOD_NAME" value="testQ026a" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EulerTest.testQ026b" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="project-euler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="src" />
+      <option name="MAIN_CLASS_NAME" value="src.EulerTest" />
+      <option name="METHOD_NAME" value="testQ026b" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EulerTest.testQ026c" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="project-euler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="src" />
+      <option name="MAIN_CLASS_NAME" value="src.EulerTest" />
+      <option name="METHOD_NAME" value="testQ026c" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.EulerTest.testQ026b" />
         <item itemvalue="TestNG.EulerTest.testQ026" />
+        <item itemvalue="TestNG.EulerTest.testQ026c" />
+        <item itemvalue="TestNG.EulerTest.testQ026a" />
         <item itemvalue="TestNG.EulerTest.testQ025" />
-        <item itemvalue="TestNG.EulerTest.testQ024" />
-        <item itemvalue="TestNG.EulerTest.testQ024b" />
-        <item itemvalue="TestNG.EulerTest.testQ024a" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +187,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/q026.java</url>
-          <line>38</line>
+          <line>43</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

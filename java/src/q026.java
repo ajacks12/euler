@@ -21,6 +21,11 @@ answer = 983
 
 package src;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 public final class q026 implements Euler {
 
     public String solve() {
@@ -28,16 +33,52 @@ public final class q026 implements Euler {
         double[] fractions = new double[999];
         fractions[0] = 0;
         for (int i = 1; i < 999; i++) {
-            fractions[i] = Math.floor(1 / (double)i * (double)1e30);
+            fractions[i] = Math.floor(1 / (double) i * (double) 1e30);
         }
 
-        // multiply by the length you want
-        // round down to integer
-        // convert to BigInteger
-
+        List<String> list = new ArrayList<>();
+        list.add("0");
+        for (int i = 1; i <= 1000; i++) {
+            list.add(FindDecimals(i,1000));
+        }
 
         return "";
     }
 
+    public static String FindLengthOfLongestRepeatedSeq(String input) {
+        Pattern pattern = Pattern.compile("(.+?)(?:\\1)+");
+        Matcher matcher = pattern.matcher(input);
+        matcher.find();
+        String matchGrp = matcher.group();
+        //String repeated = input.replaceAll("(.+)(?:\\1)+","$1");
 
+        while (true) {
+            String out = FindLengthOfLongestRepeatedSeq(matchGrp);
+            if (matchGrp == out) {
+                return out;
+            }
+            matchGrp = out;
+        }
+
+    }
+
+        public static String FindDecimals(int val, int places) {
+        // 1 / 8 -> 0 r 8
+        // 10/ 8 -> 1 r 2
+        // 2 / 8 -> 0 r 8
+        // 20/ 8 -> 2 r 4
+        // 40/ 8 -> 5 r 0
+        int remainder = val;
+        int num = 1;
+        int curPlace = 1;
+        StringBuilder str = new StringBuilder();
+        while (remainder != 0 & curPlace < places) {
+            if (num / val == 0) num *= 10;
+            str.append(num / val);
+            remainder = num % val;
+            num = remainder;
+            curPlace++;
+        }
+        return str.toString();
+    }
 }
