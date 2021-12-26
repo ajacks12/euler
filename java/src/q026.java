@@ -30,35 +30,59 @@ public final class q026 implements Euler {
 
     public String solve() {
 
-        double[] fractions = new double[999];
-        fractions[0] = 0;
-        for (int i = 1; i < 999; i++) {
-            fractions[i] = Math.floor(1 / (double) i * (double) 1e30);
-        }
+//        double[] fractions = new double[999];
+//        fractions[0] = 0;
+//        for (int i = 1; i < 999; i++) {
+//            fractions[i] = Math.floor(1 / (double) i * (double) 1e30);
+//        }
 
         List<String> list = new ArrayList<>();
         list.add("0");
         for (int i = 1; i <= 1000; i++) {
-            list.add(FindDecimals(i,1000));
+            list.add(FindDecimals(i,5000));
         }
 
-        return "";
+        int longestLen = 0;
+        int longestIdx = 0;
+        int n;
+        for (n = 0; n <= 1000; n++) {
+            int curLen = FindLengthOfLongestRepeatedSeq(list.get(n));
+            if (curLen>longestLen){
+                longestLen = curLen;
+                longestIdx = n;
+            }
+        }
+        return String.valueOf(longestIdx);
     }
 
-    public static String FindLengthOfLongestRepeatedSeq(String input) {
-        Pattern pattern = Pattern.compile("(.+?)(?:\\1)+");
+    public static int FindLengthOfLongestRepeatedSeq(String input) {
+        Pattern pattern = Pattern.compile("(.+?)\\1+");
         Matcher matcher = pattern.matcher(input);
-        matcher.find();
-        String matchGrp = matcher.group();
-        //String repeated = input.replaceAll("(.+)(?:\\1)+","$1");
 
-        while (true) {
-            String out = FindLengthOfLongestRepeatedSeq(matchGrp);
-            if (matchGrp == out) {
-                return out;
-            }
-            matchGrp = out;
+        Double aNumber = 1/  Double.valueOf("0." + input);
+
+        String repGrp = "";
+        int len = 0;
+        if (matcher.find())
+        {
+            repGrp = matcher.group(1);
+            len = repGrp.length();
+            return len;
         }
+        else
+        {
+            return 0;
+        }
+//
+//        String repeated = input.replaceAll("(.+?)\\1+","$1");
+//        if (input.length() > repeated.length())
+//        {
+//            return repeated.length();
+//        }
+//        else
+//        {
+//            return 0;
+//        }
 
     }
 

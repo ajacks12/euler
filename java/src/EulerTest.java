@@ -83,12 +83,15 @@ public class EulerTest {
         assertEquals(new q026().solve(),"983");
     }
     @Test void testQ026a(){
-        assertEquals(q026.FindLengthOfLongestRepeatedSeq("abc__abc__abc"),3);
+        assertEquals(q026.FindLengthOfLongestRepeatedSeq("abcabcabc"),3);
     }
     @Test void testQ026b(){
-        assertEquals(q026.FindLengthOfLongestRepeatedSeq("01232232232232"),3);
+        assertEquals(q026.FindLengthOfLongestRepeatedSeq("33333333"),1);
     }
     @Test void testQ026c(){
+        assertEquals(q026.FindLengthOfLongestRepeatedSeq("2323232323"),2);
+    }
+    @Test void testQ026d(){
         assertEquals(q026.FindDecimals(8,5),"abc");
     }
 }

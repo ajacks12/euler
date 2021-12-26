@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="799da816-34eb-4d2a-b868-bb20941f3288" name="Changes" comment="">
+    <list default="true" id="799da816-34eb-4d2a-b868-bb20941f3288" name="Changes" comment="better next digit calculator for q26">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-euler.iml" beforeDir="false" afterPath="$PROJECT_DIR$/project-euler.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/EulerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EulerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/q026.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/q026.java" afterDir="false" />
     </list>
@@ -56,7 +55,7 @@
       <recent name="src" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.EulerTest.testQ026b">
+  <component name="RunManager" selected="TestNG.EulerTest.testQ026">
     <configuration name="EulerTest.testQ025" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="project-euler" />
       <extension name="coverage">
@@ -149,8 +148,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.EulerTest.testQ026b" />
         <item itemvalue="TestNG.EulerTest.testQ026" />
+        <item itemvalue="TestNG.EulerTest.testQ026b" />
         <item itemvalue="TestNG.EulerTest.testQ026c" />
         <item itemvalue="TestNG.EulerTest.testQ026a" />
         <item itemvalue="TestNG.EulerTest.testQ025" />
@@ -166,6 +165,14 @@
       <option name="presentableId" value="Default" />
       <updated>1639232102963</updated>
     </task>
+    <task id="LOCAL-00001" summary="better next digit calculator for q26">
+      <created>1640353712204</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1640353712204</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -181,19 +188,32 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="better next digit calculator for q26" />
+    <option name="LAST_COMMIT_MESSAGE" value="better next digit calculator for q26" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/q026.java</url>
-          <line>43</line>
+          <line>54</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="n==983" language="JAVA" />
+          <url>file://$PROJECT_DIR$/src/q026.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint suspend="THREAD" type="java-exception" />
       </default-breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/java$EulerTest_testQ026.ic" NAME="EulerTest.testQ026 Coverage Results" MODIFIED="1640524396971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>src.*</FILTER>
+    </SUITE>
   </component>
 </project>
